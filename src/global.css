@@ -1,0 +1,129 @@
+@import "tailwindcss";
+@import "uniwind";
+
+@theme {
+  --font-rd-bold: "DINNextRoundedBold";
+  --font-rd-regular: "DINNextRoundedRegular";
+  --font-rd-medium: "DINNextRoundedMedium";
+}
+
+@layer theme {
+  :root {
+    /* Dark theme variables */
+    @variant dark {
+      --color-blue-ice: #dceff8;
+      --color-blue-light: #63c9f9;
+      --color-blue-base: #1cb0f6;
+      --color-blue-medium: #1899d6;
+      --color-blue-navy: #4246a3;
+      --color-red-base: #ff4b4b;
+      --color-red-light: #ffb2b2;
+      --color-gray-1: #4b4b4b;
+      --color-gray-2: #777;
+      --color-gray-3: #afafaf;
+      --color-gray-4: #b7b7b7;
+      --color-gray-5: #d9d9d9;
+      --color-gray-6: #e5e5e5;
+      --color-gold-light: #fbe56d;
+      --color-gold-base: #ffc800;
+      --color-gold-medium: #aa572a;
+      --color-gold-dark: #aa572a;
+      --color-gold-xdark: #90461f;
+      --color-orange-base: #ff9600;
+      --color-green-ice: #ecffde;
+      --color-green-light: #79d634;
+      --color-green-base: #58cc02;
+      --color-green-medium: #58a700;
+      --color-green-dark: #487800;
+      --color-purple-base: #ce82ff;
+      --color-purple-medium: #aa7ccc;
+      --color-purple-ice: #dbc3eb;
+      --color-purple-ice-text: #edd1ff;
+      --color-purple-light: #c894f9;
+      --color-purple-dark-shine: #8e5db1;
+      --color-purple-ice-text: #dcc6e9;
+      --color-yellow-base: #ffc800;
+      --color-yellow-medium: #e5b700;
+      --color-yellow-light: #ffde59;
+      --color-yellow-dark: #d89c00;
+      --color-silver-base: #d9d9d9;
+      --color-silver-medium: #a7b8c8;
+      --color-bronze-base: #d9a066;
+      --color-bronze-medium: #b7793e;
+      --color-mint-base: #1cbf99;
+      --color-mint-medium: #0f9b79;
+      --color-mint-light: #9bded0;
+      --color-trip-green-base: #1cbf99;
+      --color-trip-green-dark: #0e7f62;
+      --color-trip-green-light: #35ccab;
+      --color-trip-green-ice-shine: #e5f7f2;
+      --color-trip-green-ice: #cbece3;
+      --color-text-primary: #4b4b4b;
+      --color-text-secondary: #777777;
+      --color-text-tertiary: #a7a7a7;
+      --color-text-quaternary: #c8c8c8;
+      --color-text-on-blue-button: #ffffff;
+      --color-text-linked: #1cb0f6;
+      --color-text-streak-count: #ff9600;
+      --color-text-gem-count: #1cb0f6;
+    }
+
+    /* Light theme variables */
+    @variant light {
+      --color-blue-ice: #e5e5e5;
+      --color-blue-light: #69c5f0;
+      --color-blue-base: #1cb0f6;
+      --color-blue-medium: #1899d6;
+      --color-blue-navy: #3f3f9f;
+      --color-red-base: #ff4b4b;
+      --color-red-light: #ffb2b2;
+      --color-gray-1: #4b4b4b;
+      --color-gray-2: #777;
+      --color-gray-3: #afafaf;
+      --color-gray-4: #b7b7b7;
+      --color-gray-5: #d9d9d9;
+      --color-gray-6: #e5e5e5;
+      --color-gold-light: #fbe56d;
+      --color-gold-base: #ffc800;
+      --color-gold-medium: #aa572a;
+      --color-gold-dark: #aa572a;
+      --color-gold-xdark: #90461f;
+      --color-orange-base: #ff9600;
+      --color-green-ice: #ecffde;
+      --color-green-light: #79d634;
+      --color-green-base: #58cc02;
+      --color-green-medium: #58a700;
+      --color-green-dark: #487800;
+      --color-purple-base: #ce82ff;
+      --color-purple-medium: #aa7ccc;
+      --color-purple-ice: #d5b8e8;
+      --color-purple-light: #c894f9;
+      --color-purple-dark-shine: #8e5db1;
+      --color-purple-ice-text: #dcc6e9;
+      --color-yellow-base: #ffc800;
+      --color-yellow-medium: #e5b700;
+      --color-yellow-light: #ffde59;
+      --color-yellow-dark: #d89c00;
+      --color-silver-base: #d9d9d9;
+      --color-silver-medium: #a7b8c8;
+      --color-bronze-base: #d9a066;
+      --color-bronze-medium: #b7793e;
+      --color-mint-base: #1cbf99;
+      --color-mint-medium: #0f9b79;
+      --color-mint-light: #9bded0;
+      --color-trip-green-base: #1cbf99;
+      --color-trip-green-dark: #0e7f62;
+      --color-trip-green-light: #35ccab;
+      --color-trip-green-ice-shine: #e5f7f2;
+      --color-trip-green-ice: #cbece3;
+      --color-text-primary: #4b4b4b;
+      --color-text-secondary: #777777;
+      --color-text-tertiary: #a7a7a7;
+      --color-text-quaternary: #c8c8c8;
+      --color-text-on-blue-button: #ffffff;
+      --color-text-linked: #1cb0f6;
+      --color-text-streak-count: #ff9600;
+      --color-text-gem-count: #1cb0f6;
+    }
+  }
+}
