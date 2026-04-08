@@ -58,3 +58,7 @@ npx expo run:android
 - This project uses custom SVG assets heavily, including tab icons, lesson icons, and reward/medal icons.
 - UI behavior for lesson lists and popups is data-driven from `src/data/list-items.ts`.
 - Some screens are still mock-first and evolve rapidly during UI iteration.
+
+## Demo
+
+[Demo Video](https://github.com/user-attachments/assets/5b4c3578-6f0c-4722-833f-722cb7078573)
