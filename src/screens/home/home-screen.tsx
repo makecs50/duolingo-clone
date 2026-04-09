@@ -57,10 +57,10 @@ export const HomeScreen = () => {
   const popupTop = useSharedValue(-POPUP_HEIGHT);
   const pointerCenterX = useSharedValue((windowWidth * POPUP_WIDTH_RATIO) / 2);
   const popupProgress = useSharedValue(0);
-  const popupFaceColor = useSharedValue<string>(
+  const [popupFaceColor, setPopupFaceColor] = useState<string>(
     BUTTON_FACE_RIM_COLORS.green.face,
   );
-  const popupRimColor = useSharedValue<string>(
+  const [popupRimColor, setPopupRimColor] = useState<string>(
     BUTTON_FACE_RIM_COLORS.green.rim,
   );
   const [popupLessonType, setPopupLessonType] =
@@ -120,8 +120,8 @@ export const HomeScreen = () => {
       popupRimColor: nextPopupRimColor,
       type,
     }: ListItemPressMeasurement) => {
-      popupFaceColor.value = nextPopupFaceColor;
-      popupRimColor.value = nextPopupRimColor;
+      setPopupFaceColor(nextPopupFaceColor);
+      setPopupRimColor(nextPopupRimColor);
       setPopupLessonType(type);
       const viewportTop = insets.top;
       const viewportBottom = windowHeight - tabBarHeight;
